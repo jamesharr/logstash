@@ -1,1 +1,4 @@
-2014-01-16T16:09:05.901722-06:00 example.com %ASA-5-106100: access-list global_access permitted tcp core/1.2.3.4(53505) -> server/2.3.4.5(8014) hit-cnt 1 first hit [0x4d95af58, 0xa0f53cec]
+2014-01-16T16:09:05.901722-06:00 example.com %ASA-5-106100: access-list global_access permitted tcp core/1.2.3.4(53505) -> server/2.3.4.5(8014) hit-cnt 1 first hit [0xf00ba444, 0xf00ba444]
+2014-01-16T21:02:13-06:00 example.com %ASA-4-106103: access-list DAP-ip-user-1234567E denied tcp for user 'foo' core/1.2.3.4(23859) -> core/2.3.4.5(80) hit-cnt 1 first hit [0xf00ba444, 0xf00ba444]
+2014-01-16T19:34:55-06:00 example.com %ASA-5-106102: access-list DAP-ip-user-12345A0A permitted tcp for user 'foo' core/1.2.3.4(14809) -> core/2.3.4.5(443) hit-cnt 1 first hit [0xf00ba444, 0xf00ba444]
+2014-01-16T19:34:55-06:00 example.com %ASA-5-106102: access-list DAP-ip-user-12345A0A permitted tcp for user '<unknown>' core/1.2.3.4(14809) -> core/2.3.4.5(443) hit-cnt 1 first hit [0xf00ba444, 0xf00ba444]
