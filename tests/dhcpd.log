@@ -1,0 +1,15 @@
+2014-01-16T10:56:59-06:00 203.0.113.1 dhcpd[1234]: DHCPACK on 203.0.113.2 to de:ad:be:ef:ca:fe (someones-iPhone) via eth2 relay 203.0.113.3 lease-duration 1800 (RENEW)
+2014-01-16T10:56:59-06:00 203.0.113.1 dhcpd[1234]: DHCPACK on 203.0.113.2 to de:ad:be:ef:ca:fe (someones-iPhone) via eth2 relay 203.0.113.3 lease-duration 1800
+2014-01-16T12:40:58-06:00 203.0.113.1 dhcpd[1234]: DHCPACK on 203.0.113.2 to de:ad:be:ef:ca:fe via eth2 relay 203.0.113.3 lease-duration 14400 (RENEW)
+2014-01-16T12:40:58-06:00 203.0.113.1 dhcpd[1234]: DHCPACK on 203.0.113.2 to de:ad:be:ef:ca:fe via eth2 relay 203.0.113.3 lease-duration 14400
+2014-01-16T11:52:29-06:00 203.0.113.1 dhcpd[1234]: DHCPACK to 203.0.113.3 (de:ad:be:ef:ca:fe) via eth2
+2014-01-16T10:56:59-06:00 203.0.113.1 dhcpd[1234]: DHCPREQUEST for 203.0.113.2 (1.2.3.4) from de:ad:be:ef:ca:fe (someones-iPhone) via 203.0.113.3  (RENEW)
+2014-01-16T10:56:59-06:00 203.0.113.1 dhcpd[1234]: DHCPREQUEST for 203.0.113.2 (1.2.3.4) from de:ad:be:ef:ca:fe (someones-iPhone) via 203.0.113.3
+2014-01-16T10:56:59-06:00 203.0.113.1 dhcpd[1234]: DHCPREQUEST for 203.0.113.2 from de:ad:be:ef:ca:fe (someones-iPhone) via 203.0.113.3  (RENEW)
+2014-01-16T10:56:59-06:00 203.0.113.1 dhcpd[1234]: DHCPREQUEST for 203.0.113.2 from de:ad:be:ef:ca:fe (someones-iPhone) via 203.0.113.3
+2014-01-16T10:56:59-06:00 203.0.113.1 dhcpd[1234]: DHCPREQUEST for 203.0.113.2 from de:ad:be:ef:ca:fe via 203.0.113.3  (RENEW)
+2014-01-16T10:56:59-06:00 203.0.113.1 dhcpd[1234]: DHCPREQUEST for 203.0.113.2 from de:ad:be:ef:ca:fe via 203.0.113.3
+2014-01-16T10:56:59-06:00 203.0.113.1 dhcpd[1234]: DHCPINFORM from 203.0.113.2 via 203.0.113.3
+2014-01-16T10:56:59-06:00 203.0.113.1 dhcpd[1234]: DHCPDISCOVER from de:ad:be:ef:ca:fe (Nintendo DS) via 203.0.113.3
+2014-01-16T10:56:59-06:00 203.0.113.1 dhcpd[1234]: DHCPDISCOVER from de:ad:be:ef:ca:fe via 203.0.113.3
+2014-01-16T10:56:59-06:00 203.0.113.1 dhcpd[1234]: DHCPOFFER on 203.0.113.2 to de:ad:be:ef:ca:fe (Nintendo DS) via eth2 relay 203.0.113.3 lease-duration 13090
