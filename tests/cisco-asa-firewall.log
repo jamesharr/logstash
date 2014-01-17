@@ -1,0 +1,1 @@
+2014-01-16T16:09:05.901722-06:00 example.com %ASA-5-106100: access-list global_access permitted tcp core/1.2.3.4(53505) -> server/2.3.4.5(8014) hit-cnt 1 first hit [0x4d95af58, 0xa0f53cec]
