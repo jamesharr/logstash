@@ -9,7 +9,8 @@ for dir in config/*/; do
 	else
 		continue
 	fi
-	echo "=== $build_unit ==="
+	echo "Creating $build_unit"
+
 	(
 	# Input
 	for file in config/$build_unit/input-*.conf; do
@@ -22,13 +23,13 @@ for dir in config/*/; do
 	echo ""
 
 	# Filter
-	echo "filter {"
 	for file in config/$build_unit/filter-*.conf; do
+	  echo "filter {"
 		echo "# src-begin=$file"
 		cat $file
 		echo "# src-end=$file"
+	  echo "} # end filter"
 	done
-	echo "} # end filter"
 	echo ""
 
 	# Output
