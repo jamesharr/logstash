@@ -1,0 +1,1 @@
+<7> 123.34.56.78 - - Fri Mar 21 09:25:51 2014 "POST /webapps/portal/execute/tabs/tabAction HTTP/1.1" 2400 "https://blackboard.domain.edu/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_1_1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:27.0) Gecko/20100101 Firefox/27.0" blackboard-vip:443
