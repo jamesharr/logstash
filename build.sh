@@ -1,8 +1,12 @@
 #!/bin/bash
 
+# Prototype logstash config generator
 shopt -s nullglob
 
-# Prototype logstash config generator
+# Nuke old
+rm build/*.conf
+
+# Create new config
 for dir in config/*/; do
 	if [[ $dir =~ config/([^/]*)/ ]]; then
 		build_unit=${BASH_REMATCH[1]}
